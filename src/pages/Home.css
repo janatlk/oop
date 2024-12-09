@@ -8,3 +8,33 @@
   justify-content: center;
   gap: 25px;
 }
+.Tabs button{
+  border-radius: 8px;
+  border-color: black;
+  border-width: 2px;
+  background-color: white;
+  height: 40px;
+  width:150px;
+}
+.Tabs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.Buttons {
+  gap: 10px;
+  display: flex;
+}
+.input input{
+  width: 450px;
+  height: 38px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 2px;
+}
+.SelectedTab {
+  background-color: black !important;
+  color: white;
+  
+}

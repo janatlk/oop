@@ -23,6 +23,19 @@ export default function Home() {
           <Card></Card>
           <Card></Card>
       </div>
+      <Heading text='Menu'></Heading>
+      <div className='Tabs'>
+      <div className='Buttons'>
+        <button className='SelectedTab'>All</button>
+        <button>Breakfasts</button>
+        <button>First dishes</button>
+        <button>Sushies</button>
+        <button>Specials</button>
+      </div>
+      <div className='input'>
+        <input placeholder='ICON search...'></input>
+      </div>
+      </div>
     </>
   );
 }
