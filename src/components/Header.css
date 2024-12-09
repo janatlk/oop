@@ -1,0 +1,14 @@
+
+.headerdiv {
+    display: flex;
+    background-color: #000;
+    color: white;
+    height: 147px;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+}
+.List {
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,10 @@
+
+.Banner{
+  display: flex;
+  justify-content: center;
+}
+.PopularDishes{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}

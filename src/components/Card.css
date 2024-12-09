@@ -1,0 +1,48 @@
+.Card {
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    width: 230px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.Imag {
+    border-radius: 12px;
+    width: 230px;
+    height: 200px;
+    background-image: url(../assets/images/card-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.Rating {
+    margin: 16px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    background-color: black;
+    border-radius: 16px;
+    width: 55px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.Star{
+    color: gold;
+}
+.maintext {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Flex {
+    display: flex;
+    align-items: center;
+    gap: 70%;   
+}
